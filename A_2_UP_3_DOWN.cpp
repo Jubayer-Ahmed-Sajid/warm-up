@@ -6,9 +6,10 @@ int main() {
     cin.tie(nullptr);
 
     // Your code here
-    int a,b;
-    cin>>a>>b;
-    cout<<a+b<<endl;
+    int x,y;
+    cin>>x>>y;
+   if((x-y > 0 && x-y > 3)|| (x-y < 0 && x-y < -2)) cout<<"No";
+   else cout <<"Yes";
 
     return 0;
 }
